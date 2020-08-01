@@ -110,7 +110,10 @@ function StartFilter(n){
 				elem[i].style.margin ="5px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
+			if(k % 2 ){
+				document.getElementById('works__types__list').style.width = "75%";} 
 		}
+		
 	}
 	
 
