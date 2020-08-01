@@ -103,15 +103,13 @@ function StartFilter(n){
 		} else{
 			document.getElementById('works__types__list').style.width = "90%";
 		}
+
+		if(document.body.clientWidth <= 500){
+			document.getElementById('works__types__list').style.width = "90%";
+		}
 	}
 	
 
 }
 
-(function noname(){
-	if(document.body.style.width <= "1266px"){
-		console.log(document.body.style.width <= "1266px");
-	}
-console.log(document.body.style.width <= "1266px");
-})
 
