@@ -21,8 +21,11 @@
 
     console.log(document.body.clientWidth);
     count=Math.trunc(document.body.clientWidth/width);
+    
+    if(document.body.clientWidth>1200){
+      count = 4; 
+    }
     console.log(count);
-
 
     //let count = setInterval(() => alert('tick'), 2000);
     //Math.trunc()
