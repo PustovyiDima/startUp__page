@@ -20,7 +20,7 @@
     let count = 4; // видимое количество изображений
 
     console.log(document.body.clientWidth);
-    count=Math.trunc(document.body.clientWidth/width)-1;
+    count=Math.trunc(document.body.clientWidth/width);
     console.log(count);
 
 
