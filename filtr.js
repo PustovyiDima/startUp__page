@@ -106,6 +106,10 @@ function StartFilter(n){
 
 		if(document.body.clientWidth <= 500){
 			document.getElementById('works__types__list').style.width = "90%";
+			for(let i = 0;  i < elem.length; i++){
+				elem[i].style.margin ="5px";
+				elem[i].style.animation = "opacity__move 2s ";
+			}
 		}
 	}
 	
