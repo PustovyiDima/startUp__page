@@ -369,7 +369,7 @@ a{
 }
 
 
-
+ 
 .slayd{
 	width: 263px;
 	color: black;
@@ -600,7 +600,7 @@ a{
 .works__types{
 	width: 90%;
 	max-width: 1171px;
-	max-height: 1400px;
+	max-height: 1000px;
 	overflow: auto;
 }
 
