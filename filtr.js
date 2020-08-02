@@ -35,9 +35,13 @@ function StartFilter(n){
 		case 0: 
 			for(let i = 0;  i < elem.length; i++){
 				elem[i].style.display = "inline-block";
-
+				elem[i].style.marginLeft ="30px";
 			}
+			elem[0].style.marginLeft ="0";
+			elem[3].style.marginLeft ="0";
+			elem[6].style.marginLeft ="0";
 			document.getElementById('works__types__list').style.width = "90%";
+
 			break;
 		case 1: 
 			for(let i = 0;  i < elem.length; i++){
@@ -112,9 +116,9 @@ function StartFilter(n){
 			}
 			if(k % 2 == 1){
 				document.getElementById('works__types__list').style.width = "75%";} 
-		}
+			}
 		
-	}
+		}
 	
 
 }
