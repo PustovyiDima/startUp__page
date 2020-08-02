@@ -696,18 +696,21 @@ a{
 	/* Style for "Rectangle" */
 	width: 100px;
 	height: 38px;
-	background-color: rgba(255,255,255,1);
-	/* Style for "View" */
-	color: #c0301c;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	color: rgba(255,255,255,1);
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 38px;
 	text-transform: uppercase;
 	text-align: center;
-	
 }
 
+.work__btn:hover{
+	background-color: rgba(255,255,255,1);
+	color: #c0301c;
+}
 
 
 
