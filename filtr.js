@@ -37,9 +37,11 @@ function StartFilter(n){
 				elem[i].style.display = "inline-block";
 				elem[i].style.marginLeft ="30px";
 			}
-			elem[0].style.marginLeft ="0";
-			elem[3].style.marginLeft ="0";
-			elem[6].style.marginLeft ="0";
+			if(document.body.clientWidth >= 1200){
+				elem[0].style.marginLeft ="0";
+				elem[3].style.marginLeft ="0";
+				elem[6].style.marginLeft ="0";
+			}
 			document.getElementById('works__types__list').style.width = "90%";
 
 			break;
