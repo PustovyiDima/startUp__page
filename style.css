@@ -602,6 +602,7 @@ a{
 	max-width: 1171px;
 	max-height: 1000px;
 	overflow: auto;
+	margin-left: 30px;
 }
 
 .works__types ul{
@@ -626,15 +627,7 @@ a{
 	overflow: hidden;
 	;
 }
-.single__work:nth-child(1){
-	margin-left: 0;
-}
-.single__work:nth-child(4){
-	margin-left: 0;
-}
-.single__work:nth-child(7){
-	margin-left: 0;
-}
+
 
 .work__img{
 	width: 100%;
@@ -754,24 +747,14 @@ a{
 
 
 
-
-
-
 @media (max-width: 1266px) {
 	.works__types{
 	width: 80%;
-	}
-	.single__work{
-		margin-left: 0;
-	}
-	.single__work:nth-child(2n){
-		margin-left: 30px;
 	}
 }
 
 @media (max-width: 400px) {
 	#works__list {
-		flex: 1;
 		flex-direction: column;
 		justify-content: center;
 	}
