@@ -29,7 +29,6 @@ function StartFilter(n){
 	let k=0;
 
 
-
 	
 	switch(n){
 		case 0: 
@@ -89,6 +88,17 @@ function StartFilter(n){
 			check__numb__active__elem();
 			break;
 	}
+	if(document.body.clientWidth <= 500){
+			document.getElementById('works__types__list').style.width = "90%";
+			for(let i = 0;  i < elem.length; i++){
+				elem[i].style.margin ="5px";
+				elem[i].style.animation = "opacity__move 2s ";
+			}
+			if(k % 2 == 1){
+				document.getElementById('works__types__list').style.width = "75%";
+			} 
+	}
+
 
 	function check__numb__active__elem(){
 		
