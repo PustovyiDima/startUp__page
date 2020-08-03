@@ -714,12 +714,10 @@ a{
 
 
 .paralax{
-	width: 100%;
-	min-height: 369px;
-	height: auto;
+	height: 369px;
 	background-image: url(./img/Layer_29.png);
 	z-index: 2;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -786,11 +784,13 @@ a{
 
 @media (max-width: 1266px) {
 	.works__types{
-	width: 80%;
+		width: 80%;
 	}
 }
 
+@media handheld{
 
+}
 
 @keyframes opacity__move {
   from {opacity:0;}
