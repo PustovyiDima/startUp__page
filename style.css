@@ -712,12 +712,13 @@ a{
 	height: 369px;
 	background-image: url(./img/Layer_29.png);
 	z-index: 2;
-	background-size: auto 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	position: relative;
 }
+
 
 
 
