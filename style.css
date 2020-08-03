@@ -602,7 +602,7 @@ a{
 	max-width: 1171px;
 	max-height: 1000px;
 	overflow: auto;
-	margin-left: 30px;
+	margin-left: -20px;
 }
 
 .works__types ul{
@@ -614,18 +614,19 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .single__work{
 	width: 360px;
 	height: 320px;
 	display: inline-block;
-	margin-left: 30px;
+	margin-left:15px;
+	margin-right: 5px;
 	margin-top: 30px;
 	position: relative;
 	overflow: hidden;
-	;
+	
 }
 
 
@@ -753,15 +754,7 @@ a{
 	}
 }
 
-@media (max-width: 400px) {
-	#works__list {
-		flex-direction: column;
-		justify-content: center;
-	}
-	.single__work{
-		margin: 15px;
-	}
-}
+
 
 @keyframes opacity__move {
   from {opacity:0;}

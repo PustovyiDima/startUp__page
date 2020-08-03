@@ -34,7 +34,7 @@ function StartFilter(n){
 		case 0: 
 			for(let i = 0;  i < elem.length; i++){
 				elem[i].style.display = "inline-block";
-				elem[i].style.marginLeft ="30px";
+				elem[i].style.marginLeft ="15px";
 			}
 
 			 
@@ -44,7 +44,7 @@ function StartFilter(n){
 		case 1: 
 			for(let i = 0;  i < elem.length; i++){
 				elem[i].style.display = "none";
-				elem[i].style.marginLeft ="30px";
+				elem[i].style.marginLeft ="15px";
 				elem[i].style.animation = "opacity__move 2s ";
 
 			}
@@ -59,7 +59,7 @@ function StartFilter(n){
 			break;
 		case 2: 
 			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.marginLeft ="30px";
+				elem[i].style.marginLeft ="15px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
 			for(let i = 0;  i < elem_design.length; i++){
@@ -69,7 +69,7 @@ function StartFilter(n){
 			break;
 		case 3: 
 			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.marginLeft ="30px";
+				elem[i].style.marginLeft ="15px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
 			for(let i = 0;  i < elem_dew.length; i++){
@@ -79,7 +79,7 @@ function StartFilter(n){
 			break;
 		case 4: 
 			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.marginLeft ="30px";
+				elem[i].style.marginLeft ="15px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
 			for(let i = 0;  i < elem_strat.length; i++){
