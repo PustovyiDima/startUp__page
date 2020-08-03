@@ -28,13 +28,21 @@ function StartFilter(n){
 	let widht__elem = new Array();
 	let k=0;
 
+	if(document.body.clientWidth <= 500){
+			document.getElementById('works__types__list').style.width = "90%";
+			for(let i = 0;  i < elem.length; i++){
+				elem[i].style.margin ="5px";
+				elem[i].style.animation = "opacity__move 2s ";
+			}
+			
+	}
 
 	
 	switch(n){
 		case 0: 
 			for(let i = 0;  i < elem.length; i++){
 				elem[i].style.display = "inline-block";
-				elem[i].style.marginLeft ="15px";
+				elem[i].style.marginLeft ="30px";
 			}
 
 			 
@@ -44,7 +52,7 @@ function StartFilter(n){
 		case 1: 
 			for(let i = 0;  i < elem.length; i++){
 				elem[i].style.display = "none";
-				elem[i].style.marginLeft ="15px";
+				elem[i].style.marginLeft ="30px";
 				elem[i].style.animation = "opacity__move 2s ";
 
 			}
@@ -59,7 +67,7 @@ function StartFilter(n){
 			break;
 		case 2: 
 			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.marginLeft ="15px";
+				elem[i].style.marginLeft ="30px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
 			for(let i = 0;  i < elem_design.length; i++){
@@ -69,7 +77,7 @@ function StartFilter(n){
 			break;
 		case 3: 
 			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.marginLeft ="15px";
+				elem[i].style.marginLeft ="30px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
 			for(let i = 0;  i < elem_dew.length; i++){
@@ -79,7 +87,7 @@ function StartFilter(n){
 			break;
 		case 4: 
 			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.marginLeft ="15px";
+				elem[i].style.marginLeft ="30px";
 				elem[i].style.animation = "opacity__move 2s ";
 			}
 			for(let i = 0;  i < elem_strat.length; i++){
@@ -88,21 +96,11 @@ function StartFilter(n){
 			check__numb__active__elem();
 			break;
 	}
-	if(document.body.clientWidth <= 500){
-			document.getElementById('works__types__list').style.width = "90%";
-			for(let i = 0;  i < elem.length; i++){
-				elem[i].style.margin ="30px";
-				elem[i].style.animation = "opacity__move 2s ";
-			}
-			if(k % 2 == 1){
-				document.getElementById('works__types__list').style.width = "75%";
-			} 
-	}
-
 
 	function check__numb__active__elem(){
 		
 		for(i=0;i<elem.length;i++){
+			console.log(elem[i].style.display);
 			if(elem[i].style.display == "inline-block"){
 				widht__elem.push(elem[i]);
 				k++;
@@ -110,6 +108,7 @@ function StartFilter(n){
 		}
 
 		if(k % 2 !=1){
+			console.log("widht__elem.length%2");
 			document.getElementById('works__types__list').style.width = "75%";
 		} else{
 			document.getElementById('works__types__list').style.width = "90%";
