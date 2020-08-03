@@ -19,13 +19,13 @@
     let width = 270; // ширина картинки
     let count = 4; // видимое количество изображений
 
-    console.log(document.body.clientWidth);
+    console.log("ширина екрана",document.body.clientWidth);
     count=Math.trunc(document.body.clientWidth/width);
     
     if(document.body.clientWidth>1200){
       count = 4; 
     }
-    console.log(count);
+    console.log("количество слайдов",count);
 
     //let count = setInterval(() => alert('tick'), 2000);
     //Math.trunc()

@@ -103,7 +103,6 @@ function StartFilter(n){
 	function check__numb__active__elem(){
 		
 		for(i=0;i<elem.length;i++){
-			console.log(elem[i].style.display);
 			if(elem[i].style.display == "inline-block"){
 				widht__elem.push(elem[i]);
 				k++;
@@ -111,7 +110,6 @@ function StartFilter(n){
 		}
 
 		if(k % 2 !=1){
-			console.log("widht__elem.length%2");
 			document.getElementById('works__types__list').style.width = "75%";
 		} else{
 			document.getElementById('works__types__list').style.width = "90%";
