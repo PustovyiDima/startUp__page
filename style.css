@@ -614,15 +614,14 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .single__work{
 	width: 360px;
 	height: 320px;
 	display: inline-block;
-	margin-left:15px;
-	margin-right: 5px;
+	margin-left:20px;
 	margin-top: 30px;
 	position: relative;
 	overflow: hidden;
@@ -644,10 +643,6 @@ a{
 	top: 100%;
 	/*opacity: 0.8;*/
 	z-index: 4;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -717,7 +712,7 @@ a{
 	height: 369px;
 	background-image: url(./img/Layer_29.png);
 	z-index: 2;
-	background-size: 100% 100%;
+	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
