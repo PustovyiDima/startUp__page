@@ -55,6 +55,7 @@ a{
    justify-content: space-between;
    color: white;
    width: 73vw;
+   max-width: 1141px;
 }
 
 .logo{
@@ -203,7 +204,7 @@ a{
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	max-width: 1180px;
+	max-width: 1140px;
 	width: 90vw;
 	margin-top: 70px;
 
@@ -307,7 +308,7 @@ a{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 20px;
 	text-transform: uppercase;
 
 }
@@ -323,7 +324,7 @@ a{
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 16px;
 }
 
 .AboutUs__content{
@@ -337,6 +338,7 @@ a{
 	align-items: center;
 	max-width: 1140px;
 	max-height: 110px;
+	overflow: hidden;
 	
 	width: 90vw;
 }
@@ -365,7 +367,7 @@ a{
 	height: 400px;
 	/*min-width: 1140px;*/
 	overflow: hidden;
-	max-width: 1095px;
+	max-width: 1140px;
 }
 
 
@@ -378,7 +380,7 @@ a{
 	overflow: hidden;
 	z-index: 2;
 	position: relative;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .slayd:first-child{
@@ -556,7 +558,7 @@ a{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 20px;
 	text-transform: uppercase;
 }
 
@@ -565,6 +567,7 @@ a{
 	height: 2px;
 	background-color: #555555;
 }
+
 
 .menu{
 	width: 417px;
@@ -599,7 +602,7 @@ a{
 
 .works__types{
 	width: 90%;
-	max-width: 1171px;
+	max-width: 1141px;
 	max-height: 1000px;
 	overflow: auto;
 	margin-left: -20px;
@@ -621,7 +624,7 @@ a{
 	width: 360px;
 	height: 320px;
 	display: inline-block;
-	margin-left:20px;
+	margin-left:10px;
 	margin-top: 30px;
 	position: relative;
 	overflow: hidden;
@@ -770,6 +773,87 @@ a{
 	color: #c0301c;
 	transition: all 1s;
 }
+
+.blog__posts{
+	width: 100%;
+	min-height: 883px;
+	margin: 100px auto ;
+	max-width: 1142px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog__tittle{
+	width: 480px;
+	height: 92px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 99px;
+}
+
+.blog__tittle h2{
+	color: #555555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+
+}
+
+.black__line{
+	width: 50px;
+	height: 2px;
+	background-color: #555555;
+}
+
+.blog__text{
+	color: #555555;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
