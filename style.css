@@ -776,7 +776,7 @@ a{
 
 .blog__posts{
 	width: 100%;
-	min-height: 883px;
+	max-height: 883px;
 	margin: 100px auto ;
 	max-width: 1142px;
 	display: -webkit-flex;
@@ -796,7 +796,7 @@ a{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	padding-top: 99px;
+
 }
 
 .blog__tittle h2{
@@ -823,36 +823,146 @@ a{
 	line-height: 16px;
 }
 
+.blog__content{
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+.blog__post{
+	width: 95%;
+	max-width: 1142px;
+	height: 360px;
+	border-bottom: 1px solid #ddd;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.blog__img{
+	max-width: 460px;
+	width: 50%;
+	height: 322px;
+	margin-right: 40px;
+}
+
+.blog__post__content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 254px;
+
+
+}
+
+.blog__post__title{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.blog__data{
+	width: 72px;
+	height: 72px;
+	border: 2px solid #555555;
+	color: #777777;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase; 	
+	letter-spacing: 1.4px;
+	text-align: center;
+}
+
+.blog__data::first-line{
+	font-size: 24px;
+	letter-spacing: 2.4px;
+	line-height: 36px;
+}
 
 
 
+.blog__post__headline{
+	margin-left: 30px;
+	min-height: 76px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.blog__header__link{
+	/* Style for "Startup id" */
+	color: #555555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.blog__post__headline p{
+	color: #777777;
+}
+.blog__post__headline p a{
+	color: #777777;
+}
+.blog__post__headline a:hover{
+	color: #c0301c;
+	transition: 1s;
+}
+
+.blog__post__headline>p>a:hover{
+	color: #c0301c;
+	transition: 1s;
+}
+
+.blog__post__content>p{
+	height: 110px;
+	color: #555555;
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	overflow: auto;
+}
+
+.blog__post__content>a{
+	color: #777777;
+	font-family: "Roboto Slab";
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	/* Text style for "R, ead mor" */
+	letter-spacing: 1.3px;
+}
+
+.blog__post__content>a:hover{
+	color: #c0301c;
+}
 
 
+.blog__post:nth-of-type(n+1){
+	margin-top: 38px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
